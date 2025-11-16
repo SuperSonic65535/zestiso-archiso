@@ -172,5 +172,6 @@ gparted
 nano
 pamac-plasma
 testdisk
+ufw
 
 #### User specified extra software - add your packages below ####
