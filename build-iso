@@ -1,5 +1,5 @@
 #!/bin/sh
-ISO_OUT_DIR="/home/$(whoami)/Documents/os-iso/"
+ISO_OUT_DIR="/home/$(whoami)/Documents/os-iso/zestiso/daily-build"
 DELETE_OLD=y
 SKIP_CURRENT=y
 ARCH="x86_64"
@@ -32,7 +32,7 @@ case $DELETE_OLD in
                 ISO_FILES=$(ls -w1 | grep "$ARCHISO_PROFILE-" | grep "\-$ARCH.iso" | xargs)
                 if [ ! -z "$ISO_FILES" ]; then
                         for ISO_FILE in $ISO_FILES; do
-                                rm "$ISO_FILE"
+                                rm -f "$ISO_FILE"
                         done
                 fi;;
 esac
