@@ -1,7 +1,9 @@
 Is your Windows PC or Mac slow or unsupported? Don't throw it away, try ZestISO today! ZestISO is an easy to use, highly customisable Arch Linux based OS. It's fast, secure, and supports all your favourite software and games*. No ads, bloat or data collection here! Try ZestISO and reclaim your privacy and freedom!
 
 ## Download ZestISO
-Download your preferred edition from [https://sourceforge.net/projects/zestiso/files/](https://sourceforge.net/projects/zestiso/files/).
+Download your preferred edition from [https://sourceforge.net/projects/zestiso/files/](https://sourceforge.net/projects/zestiso/files/).  
+daily-build: ZestISO installation images with the latest software, automatically built daily from 10-11AM (UK time). These are usually untested, so if you experience issues wait for an update or try a stable version.
+stable: ZestISO installation images tested and verified in a virtual machine, updated much less frequently with no set schedule. Some software may be out of date, so check for updates after installation. If you experience issues, try installing a daily build or wait for the next stable version.
 
 ## Desktop editions
 For a complete, easy to use desktop experience for everyday users.  
