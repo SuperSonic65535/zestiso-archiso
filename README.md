@@ -80,7 +80,7 @@ IceWM ultra-lightweight graphical window manager.
 **4) Done!** Now you can make a bootable USB drive, or boot it in a virtual machine.
 
 ## Known issues
-• **HP laptops** Certain multimedia and brightness control keys may not work. Built-in SD card reader may not work (USB card readers unaffected). HP Gaming laptops with NVIDIA graphics may have power management issues leading to severely reduced performance or system instability. Tested: HP Pavilion Gaming 17-cd0xxx, HP Pavilion 17-p100na
+• **HP laptops** Certain multimedia and brightness control keys may not work. Built-in SD card reader may not work (USB card readers unaffected). HP Gaming laptops with NVIDIA graphics may have power management issues leading to severely reduced performance or system instability. Tested: HP Pavilion Gaming 17-cd0xxx, HP Pavilion 17-p100na  
 • **Microsoft Surface** WiFi, USB, keyboard and touchpad working, but touchscreen not detected. You need to rebuild the ISO with the linux-serface kernel or install it afterwards. [Instructions](https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup#Arch) Tested: Microsoft Surface Pro 9
 
 ## Disclaimer
