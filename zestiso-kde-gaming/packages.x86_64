@@ -110,6 +110,7 @@ kdepim-addons
 kdeplasma-addons
 kio-gdrive
 koi-git
+kwin-effects-forceblur
 packagekit-qt6
 plasma-vault
 plasma-welcome
@@ -153,7 +154,6 @@ qbittorrent
 onlyoffice-bin
 
 ## Multimedia
-cheese
 obs-studio
 vlc
 vlc-plugins-all
