@@ -70,3 +70,9 @@ IceWM ultra-lightweight graphical window manager.
 **3)** Run the script, specifying the ArchISO profile you want to use (defaults to `zestiso-kde-gaming`)  
 `./build-iso zestiso-kde-gaming`  
 **4) Done!** Now you can make a bootable USB drive, or boot it in a virtual machine.
+
+## Disclaimer
+ZestISO is alpha software and comes with NO WARRANTY. Use at your own risk.
+
+## Notes
+*Windows games supported via Wine, Proton and Steam. A small number of games may have compatibility issues. 
