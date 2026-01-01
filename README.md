@@ -1,5 +1,7 @@
-# zestiso-archiso
-A collection of custom ArchISO profiles.
+Is your Windows PC or Mac slow or unsupported? Don't throw it away, try ZestISO today! ZestISO is an easy to use, highly customisable Arch Linux based OS. It's fast, secure, and supports all your favourite software and games*. No ads, bloat or data collection here! Try ZestISO and reclaim your privacy and freedom!
+
+## Download ZestISO
+Download your preferred edition from [https://sourceforge.net/projects/zestiso/files/](https://sourceforge.net/projects/zestiso/files/).
 
 ## Desktop editions
 For a complete, easy to use desktop experience for everyday users.  
@@ -29,9 +31,7 @@ KDE Plasma desktop with core applications, extra utilities, add-ons and a sleek 
 • You have a high pixel density display (supports fractional scaling from 0.5x to 3x)  
 • You have a computer made after 2012 with at least a dual-core processor, 4GB RAM and 16GB disk space  
 **Don't choose if:**  
-• You have an old, slow computer made before 2010 with less than 2GB RAM or less, and 6-12GB disk space
-
-
+• You have an old, slow computer made before 2010 with less than 2GB RAM and less than 12GB disk space
 
 **zestiso-xfce**  
 XFCE lightweight desktop with core applications, extra utilities and some add-ons.  
