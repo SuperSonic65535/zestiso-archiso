@@ -16,8 +16,11 @@ All desktop editions include:
 
 **zestiso-kde-gaming**  
 KDE Plasma desktop with core applications, extra utilities, add-ons and a sleek UI theme.  
-![KDE Plasma Gaming edition (light theme)](https://github.com/SuperSonic65535/zestiso-archiso/blob/e67d08087fdd06328c3f678a96ac3dc1745278d9/screenshots/kde-plasma-gaming-01.png)
-![Multitasking in KDE Plasma (dark theme)](https://github.com/SuperSonic65535/zestiso-archiso/blob/e67d08087fdd06328c3f678a96ac3dc1745278d9/screenshots/kde-plasma-gaming-02.png)
+  
+![KDE Plasma Gaming edition (light theme)](https://github.com/SuperSonic65535/zestiso-archiso/blob/e67d08087fdd06328c3f678a96ac3dc1745278d9/screenshots/kde-plasma-gaming-01.png)  
+  
+![Multitasking in KDE Plasma (dark theme)](https://github.com/SuperSonic65535/zestiso-archiso/blob/e67d08087fdd06328c3f678a96ac3dc1745278d9/screenshots/kde-plasma-gaming-02.png)  
+**Includes:**  
 • Firefox browser with UBlock Origin and Dark Reader, LibreOffice Fresh and VLC Media Player  
 • Gaming software like Lutris, OBS Studio and Mangohud included  
 • Automatic light and dark theme switching (Koi)  
@@ -37,6 +40,7 @@ KDE Plasma desktop with core applications, extra utilities, add-ons and a sleek 
 
 **zestiso-xfce**  
 XFCE lightweight desktop with core applications, extra utilities and some add-ons.  
+**Includes:**  
 • Firefox browser with UBlock Origin and Dark Reader, LibreOffice Fresh and VLC Media Player  
 • Supports Microsoft Windows games and applications via Wine compatibility layer  
 • Supports Microsoft Windows NTFS volumes, FAT32, exFAT, RAID, LVM, BTRFS and UDF volumes  
