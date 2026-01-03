@@ -1,0 +1,49 @@
+####  [ DO NOT EDIT THIS SECTION ]  ####
+pacman
+bash
+grub
+iptables-nft
+mkinitcpio
+mkinitcpio-archiso
+syslinux
+zestiso-archiso-files
+zestiso-core
+####  [ END OF SECTION ]  ####
+
+####  [ SYSTEM COMPONENTS ]  ####
+## Linux kernel and headers (ESSENTIAL)
+linux-zen
+linux-zen-headers
+
+## Installer
+zestiso-installer
+
+## Wireless and wired networking support and service discovery
+bundle-networking
+
+## Pipewire sound server
+lib32-pipewire-jack
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+pipewire-roc
+pipewire-v4l2
+pipewire-zeroconf
+wireplumber
+
+## Compilers, extra software repositories and tools
+base-devel
+chaotic-keyring
+chaotic-mirrorlist
+git
+yay
+
+## Not strictly necessary, but highly recommended for completeness and security
+amd-ucode
+intel-ucode
+os-prober
+terminus-font
+zestiso-branding
+
+## Misc
+nano

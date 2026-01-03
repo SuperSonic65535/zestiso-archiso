@@ -10,7 +10,7 @@ ARCHISO_PROFILE="$1"
 [ -z "$ARCH" ] && ARCH="$(uname -m)"
 MEM_MB_SIZE=$(free -m | grep "Mem:" | xargs | cut -d ' ' -f 2)
 if [ $MEM_MB_SIZE -ge 20480 ]; then
-        ARCHISO_WORK_DIR="/tmp/archiso-tmp"
+        ARCHISO_WORK_DIR="/tmp/archiso-tmp/work"
 else ARCHISO_WORK_DIR="$SCRIPT_DIR/work"; fi
 
 cd "$SCRIPT_DIR"
