@@ -15,7 +15,7 @@ pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
 # Use all threads for mksquashfs if total is 4 or less, otherwise use half of total threads
 #AIROOTFS_THREADS="$([ $(nproc) -le 4 ] && nproc || expr $(nproc) / 2)"
-AIROOTFS_THREADS=16
+AIROOTFS_THREADS=$(nproc)
 airootfs_image_tool_options=('-comp' 'zstd' '-Xcompression-level' '22' '-b' '1M' '-not-reproducible' '-processors' $AIROOTFS_THREADS)
 bootstrap_tarball_compression=('zstd' '-c' '-T0' '--auto-threads=logical' '--long' '-19')
 file_permissions=()

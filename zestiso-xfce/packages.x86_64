@@ -1,0 +1,45 @@
+#### XFCE DESKTOP ENVIRONMENT AND APPLICATIONS ####
+## XFCE core packages and configs (uncomment all if installing XFCE)
+bundle-xfce
+
+## Essential XFCE applications (uncomment all if installing XFCE)
+xfce4-terminal
+
+## XFCE extra functionality (recommended)
+
+## Useful XFCE applications
+
+## Extra XFCE applications
+
+## Themes
+
+
+
+#### EXTRA SOFTWARE AND PACKAGES ####
+## Support for Windows games and applications
+bundle-wine
+
+## Internet
+firefox-dark-reader
+firefox-i18n-en-gb
+firefox-ublock-origin
+qbittorrent
+
+## Productivity
+onlyoffice-bin
+
+## Multimedia
+obs-studio
+vlc
+vlc-plugins-all
+
+## Gaming
+lib32-mangohud
+lutris
+mangohud
+
+## System tools
+dotfiles-installer
+gparted
+
+#### User specified extra software - add your packages below ####

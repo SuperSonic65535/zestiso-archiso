@@ -18,25 +18,12 @@ linux-zen-headers
 ## Installer
 zestiso-installer
 
-## Wireless and wired networking support and service discovery
-bundle-networking
+## Basic wireless and wired networking support
+networkmanager
 
-## Pipewire sound server
-lib32-pipewire-jack
-pipewire-alsa
-pipewire-jack
-pipewire-pulse
-pipewire-roc
-pipewire-v4l2
-pipewire-zeroconf
-wireplumber
-
-## Compilers, extra software repositories and tools
-base-devel
+## Extra software repositories
 chaotic-keyring
 chaotic-mirrorlist
-git
-yay
 
 ## Not strictly necessary, but highly recommended for completeness and security
 amd-ucode

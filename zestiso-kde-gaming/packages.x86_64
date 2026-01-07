@@ -1,94 +1,9 @@
-####  [ DO NOT EDIT THIS SECTION ]  ####
-## Install Pacman first (required for other package install scripts)
-pacman
-## ArchISO dependency packages
-arch-install-scripts
-grub
-mkinitcpio-archiso
-syslinux
-zestiso-archiso-files
-zestiso-installer
-## System packages
-amd-ucode
-bash
-intel-ucode
-iptables-nft
-mkinitcpio
-zestiso-core
-## Extra system packages (recommended)
-dotfiles-installer
-os-prober
-terminus-font
-zestiso-branding
-####  [ END OF SECTION ]  ####
-## You may customise your ISO image in the following sections.
-
-
-
-####  [ SYSTEM SOFTWARE AND DRIVERS ]  ####
-## Linux kernel and headers (ESSENTIAL)
-linux-zen
-linux-zen-headers
-
-## Wireless and wired networking support and service discovery
-bundle-networking
-
-## Mobile data support for devices with a built-in 3G/4G/5G modem
-## (note that this does not include support for voice calls and SMS)
-bundle-modemmanager
-
-## Bluetooth support via BlueZ
-bundle-bluetooth
-
-## Printing/scanning support and drivers
-bundle-printing
-
-## Support for Windows games and applications
-bundle-wine
-
-## Support for extra filesystems (NTFS, BTRFS, LVM/RAID etc.) and encryption
-bundle-filesystems
-
-## Useful command-line utilities from other distros (ddrescue, gptfdisk, man-pages, usbutils etc.)
-bundle-cli-utils
-
-## Extra media codecs for music and video files (not really needed)
-#bundle-media-codecs
-
-## GPU drivers
-bundle-amd-gpu
-bundle-intel-gpu
-bundle-nvidia-free
-#bundle-nvidia-pro
-#bundle-nvidia-pro-340xx
-#bundle-nvidia-pro-390xx
-#bundle-nvidia-pro-470xx
-#bundle-nvidia-pro-525xx
-
-## Pipewire sound server
-lib32-pipewire-jack
-pipewire-alsa
-pipewire-jack
-pipewire-pulse
-pipewire-roc
-pipewire-v4l2
-pipewire-zeroconf
-wireplumber
-
-## Compilers, extra software repositories and tools
-base-devel
-chaotic-keyring
-chaotic-mirrorlist
-git
-yay
-
-
-
 ####  KDE PLASMA DESKTOP AND APPLICATIONS  ####
 ## KDE Plasma core packages and configs (uncomment all if installing KDE Plasma)
 bundle-kde
 phonon-qt6-gstreamer-git
 qt6-multimedia-gstreamer
+
 ## Essential KDE applications (uncomment all if installing KDE Plasma)
 ark
 dolphin
@@ -144,6 +59,9 @@ plymouth-theme-breeze
 
 
 ####  [ EXTRA SOFTWARE AND PACKAGES ]  ####
+## Support for Windows games and applications
+bundle-wine
+
 ## Internet
 firefox-dark-reader
 firefox-i18n-en-gb
@@ -164,10 +82,7 @@ lutris
 mangohud
 
 ## System tools
-fastfetch
+dotfiles-installer
 gparted
-nano
-testdisk
-ufw
 
 #### User specified extra software - add your packages below ####
