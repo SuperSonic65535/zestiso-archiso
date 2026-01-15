@@ -68,7 +68,7 @@ case $DELETE_OLD in
                 ISO_FILES=$(ls -w1 | grep "$ARCHISO_PROFILE-" | grep "\-$ARCH.iso" | xargs)
                 if [ ! -z "$ISO_FILES" ]; then
                         for ISO_FILE in $ISO_FILES; do
-                                rm -f "$ISO_FILE"
+                                sudo rm -f "$ISO_FILE"
                         done
                 fi;;
 esac
