@@ -6,7 +6,7 @@ iptables-nft
 mkinitcpio
 mkinitcpio-archiso
 syslinux
-zestiso-archiso-files
+#zestiso-archiso-files
 zestiso-core
 ####  [ END OF SECTION ]  ####
 

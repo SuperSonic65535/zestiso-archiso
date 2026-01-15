@@ -5,6 +5,9 @@ icewm
 xorg-server
 xorg-xinit
 
+## Display manager
+lightdm-gtk-greeter
+
 #### EXTRA SOFTWARE AND PACKAGES ####
 ## System tools
 dotfiles-installer

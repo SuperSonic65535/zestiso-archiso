@@ -3,11 +3,30 @@
 bundle-xfce
 
 ## Essential XFCE applications (uncomment all if installing XFCE)
+galculator
+mousepad
+ristretto
+xfce4-screenshooter
+xfce4-taskmanager
 xfce4-terminal
 
 ## XFCE extra functionality (recommended)
+xfce4-clipman-plugin
+xfce4-genmon-plugin
+xfce4-mailwatch-plugin
+xfce4-mount-plugin
+xfce4-mpc-plugin
+xfce4-notes-plugin
+xfce4-places-plugin
+xfce4-sensors-plugin
+xfce4-verve-plugin
+xfce4-weather-plugin
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
 
 ## Useful XFCE applications
+lightdm-gtk-greeter-settings
+lightdm-settings
 
 ## Extra XFCE applications
 
