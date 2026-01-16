@@ -90,4 +90,4 @@ IceWM ultra-lightweight graphical window manager.
 ZestISO is alpha software and comes with NO WARRANTY. Use at your own risk.
 
 ## Notes
-*Windows games supported via Wine, Proton and Steam. A small number of games may have compatibility issues. 
+*Windows games supported via Wine, Proton and Steam. While around 95% of games or more are playable, a small number may have compatibility issues.
